@@ -1,0 +1,148 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #FFFF66;
+}
+
+h1, h2, h3 {
+    font-family: Okuda;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #FFFF66;
+}
+
+#zen-intro, #zen-summary, #zen-preamble {
+    color: #FF9900;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    position: fixed;
+	top: 0;
+    left: 320px;
+    padding: 1px 10px 20px 10px;
+    color: #FF9900;
+    background-color:black;
+    border-left: 200px solid #FF9900;
+    border-right: 380px solid #6699CC;
+}
+
+h2 {
+    font-size: 48px;
+    position: fixed;
+    top: 40px;
+    left: 320px;
+    right: 0;
+    padding: 25px;
+    background-color:black;
+    border-top-left-radius: 35px;
+}
+
+p {
+    font-family: "Arial";
+    color: #FFCC66;
+    font-size: 18px
+}
+
+body {
+    background-color: black;
+}
+
+aside {
+    position: fixed;
+	top: 0;
+    left: 20px;
+    bottom: 50px;
+    width: 300px;
+    font-size: 16px;
+    text-align: right;
+    background-color: black;
+    border-top-left-radius: 70px;
+    color: black;
+}
+
+aside h3 {
+    color: black;
+    font-size: 24px;
+}
+
+aside a, footer a {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#zen-resources {
+    background-color: #CC6699;
+    padding-right: 15px;
+    border-top: 5px solid black;
+    padding-bottom: 10px;
+}
+
+h3.archives {
+    display: none;
+}
+
+#design-archives li a {
+    display: block;
+    background-color: #9999FF;
+    padding: 10px 15px 10px 10px;
+    border-top: 5px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Okuda;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+    font-size: 24px;
+    word-spacing: 5px;
+}
+
+#design-archives li a:hover {
+    background-color: #666699;
+}
+
+#design-selection {
+    background-color: #FF9900;
+    padding-top: 90px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-top-left-radius: 70px;
+}
+
+footer {
+    position: fixed;
+	top: 610px;
+    left: 20px;
+	width: 280px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Okuda;
+    letter-spacing: 2px;
+    text-align: right;
+    font-size: 24px;
+    word-spacing: 5px;
+    background-color: #CC6666;
+}
+
+#zen-intro {
+    margin-left: 320px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#zen-supporting {
+    margin-left: 320px;
+    padding: 10px;
+}
